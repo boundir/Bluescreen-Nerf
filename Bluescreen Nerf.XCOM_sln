@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # XCOM ModBuddy Solution File, Format Version 11.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Bluescreen Nerf", "Bluescreen Nerf\Bluescreen Nerf.x2proj", "{E79F70AF-C2F5-449F-9DBE-2A6D6C09FF1E}"
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Bluescreen Nerf", "Bluescreen Nerf\Bluescreen Nerf.x2proj", "{5DCBF507-F6D0-4CF9-8EB7-560E5722D3AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|XCOM 2 = Default|XCOM 2
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E79F70AF-C2F5-449F-9DBE-2A6D6C09FF1E}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
-		{E79F70AF-C2F5-449F-9DBE-2A6D6C09FF1E}.Default|XCOM 2.Build.0 = Default|XCOM 2
+		{5DCBF507-F6D0-4CF9-8EB7-560E5722D3AC}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
+		{5DCBF507-F6D0-4CF9-8EB7-560E5722D3AC}.Default|XCOM 2.Build.0 = Default|XCOM 2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

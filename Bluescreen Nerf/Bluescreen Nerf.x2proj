@@ -3,27 +3,12 @@
   <PropertyGroup>
     <Guid>75ce0df1-e84e-4d26-ba33-cde7590e7714</Guid>
     <Name>Bluescreen Nerf</Name>
-    <Description>[quote=Bradford]
-Commander, we should equip our soldiers with Bluescreen rounds because really, why not?
-[/quote]
-[h1]Description[/h1]
-This mod intention is to make you think twice on who you will equip your Bluescreen rounds on.
-It will reduce the damage on mechanical units to 4 instead of 5.
-You will have a penalty of 1 damage when using Bluescreen rounds on non-mechanical units.
-
-[h1]Configuration[/h1]
-You can edit the damages by going into the mod config file [u]XComGameCore.ini[/u], then modify the lines :
-[code]
-+BLUESCREEN_DMGMOD=4
-+BLUESCREEN_ORGANIC_DMGMOD=-1
-[/code]
-
-
-[h1]Credits[/h1]
-Thanks to [b]DerBK[/b] and [b]robojumper[/b] for guiding me.</Description>
+    <Description>Reduce Bluescreen Rounds damages on mechanical units to 4 instead of 5. Deal 1 less damage than normal ammo if applied on non-mechanical units.
+tags= War of the Chosen, Gameplay, Bluescreen, BSOD</Description>
     <SteamPublishID>0</SteamPublishID>
     <AssemblyName>Bluescreen Nerf</AssemblyName>
     <RootNamespace>Bluescreen Nerf</RootNamespace>
+    <ProjectGuid>{5dcbf507-f6d0-4cf9-8eb7-560e5722d3ac}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Config\" />
@@ -36,6 +21,12 @@ Thanks to [b]DerBK[/b] and [b]robojumper[/b] for guiding me.</Description>
     <Content Include="Config\XComGameCore.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComBluescreen.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComStrategyTuning.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Localization\BluescreenNerf.int">
       <SubType>Content</SubType>
     </Content>
@@ -46,7 +37,6 @@ Thanks to [b]DerBK[/b] and [b]robojumper[/b] for guiding me.</Description>
     <Content Include="Config\XComEditor.ini" />
     <Content Include="Config\XComEngine.ini" />
     <Content Include="Config\XComGame.ini" />
-    <Content Include="Localization\XComGame.int" />
     <Content Include="Src\BluescreenNerf\Classes\X2DownloadableContentInfo_BluescreenNerf.uc" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
